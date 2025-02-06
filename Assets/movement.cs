@@ -23,6 +23,5 @@ public class movement : MonoBehaviour
 
         Vector2 direction = new Vector2(horizontal, vertical);
         transform.Translate(direction * speed * Time.deltaTime);
-
     }
 }
